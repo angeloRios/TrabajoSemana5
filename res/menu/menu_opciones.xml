@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/m_contact"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/mFavoritos"
+        android:title="@string/m_favs"
+        android:orderInCategory="103"
+        app:showAsAction="always"
+        android:icon="@drawable/hotel"/>
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/m_about"
+        android:orderInCategory="101"
+        />
+</menu>

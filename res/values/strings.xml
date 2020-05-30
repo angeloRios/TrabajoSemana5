@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MascotasDbMVP</string>
+    <!-- Textos comunes de la aplicacion -->
+    <string name="para">Para:</string>
+    <string name="mensaje_de">De:</string>
+    <string name="email_develop">bnovoa.linux@gmail.com</string>
+    <string name="email_auth">mascotasgramy@gmail.com</string>
+    <string name="pass_auth">MascotACourserA2019</string>
+    <!-- Textos de la actividad Contacto -->
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo electronico</string>
+    <string name="mensaje">Enviame un mensaje</string>
+    <string name="enviar">Enviar Comentario</string>
+
+    <!-- Parámetros Bundle -->
+    <string name="pfoto">foto</string>
+    <string name="pnombre">nombre</string>
+    <string name="plikes">Likes</string>
+
+    <!-- Image Descriptions -->
+    <string name="mascota_description">Descripción de la imágen de la macota</string>
+    <string name="bone1_description">Obtenido de: https://old.icons8.com/icon/set/bone/all</string>
+    <string name="bone2_description">Obtenido de: https://old.icons8.com/icon/set/bone/all</string>
+
+    <!-- Opciones del menú -->
+    <string name="m_favs">Favorifos</string>
+    <string name="m_contact">Contacto</string>
+    <string name="m_about">Acerca de</string>
+    <string name="m_config">Configurar Cuenta</string>
+    <!-- Opciones del menú de la actividad MascotaDetalle -->
+    <string name="mDelete">Eliminar de mis favoritos</string>
+
+
+    <!-- Posibles errores de la aplicación -->
+    <string name="error011">Error eliminando la mascota de la lista de favoritos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

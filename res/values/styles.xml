@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Tema base de la aplicacion. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Tema del boton -->
+    <style name="btnTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorButtonNormal">@color/colorAccentButton</item>
+        <item name="colorControlHighlight">@color/blanco</item>
+        <item name="android:textColor">@color/negro</item>
+    </style>
+
+</resources>

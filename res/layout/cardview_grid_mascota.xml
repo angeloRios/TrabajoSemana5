@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="100dp"
+    android:layout_height="125dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    app:cardCornerRadius="@dimen/cardview_radius">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imvMascota"
+            android:contentDescription="@string/mascota_description"
+            android:layout_width="@dimen/img_grid_width"
+            android:layout_height="@dimen/img_grid_height"
+            android:src="@drawable/garfield"
+            android:background="@drawable/circulo"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/contorno"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tvMascotaLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plikes"
+                android:textSize="@dimen/txt_mascota_size"/>
+            <ImageView
+                android:id="@+id/imvBone2"
+                android:contentDescription="@string/bone2_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bone_yellow"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

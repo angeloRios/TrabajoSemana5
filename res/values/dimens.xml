@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimens del archivo contorno.xml -->
+    <dimen name="grosor_linea">1dp</dimen>
+    <dimen name="esquinas">3dp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="cardview_radius">4dp</dimen>
+    <dimen name="padding_bone_left">10dp</dimen>
+    <dimen name="txt_mascota_size">18sp</dimen>
+
+    <!-- Elevación de los objetos -->
+    <dimen name="appbar_elevation">4dp</dimen>
+
+    <!-- -->
+    <dimen name="top10">10dp</dimen>
+    <dimen name="img_grid_width">80dp</dimen>
+    <dimen name="img_grid_height">80dp</dimen>
+</resources>
